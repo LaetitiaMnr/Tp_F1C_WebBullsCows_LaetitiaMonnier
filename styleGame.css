@@ -1,0 +1,68 @@
+/* Laetitia Monnier */
+.alignment {
+	background-color: black;
+	border-radius: 20px;
+	color: white;
+	font-size: large;
+	width: 40px;
+	height: 40px;
+	margin: 0px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 5px; 
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.resultLine {
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+
+
+.answer {
+	font-family: 'Abril Fatface', cursive;
+}
+
+#imageBullsCows {
+	display: block;
+	margin : auto;
+	margin-top: 163px;
+}
+
+/* Id of the article that contains the buttons */
+#choice {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 60px;
+	justify-content: center;
+}
+
+#bullsCows {
+	margin-top: 10px;
+}
+
+/* Creation of the buttons */
+button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+	transform : translate(31%, -18%);
+}
+
+
+
+
+

@@ -1,0 +1,60 @@
+﻿<!-- Laetitia Monnier -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bulls and Cows Game</title>
+		<link rel="stylesheet" type="text/css" href="stylePrincipal.css">
+		<link rel="stylesheet" type="text/css" href="styleGame.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet"> 
+		<link rel="stylesheet" media="screen" href="styleScreen.css" type="text/css" />
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<img id="imageBullsCows" src="images/logoBulls.png" width="300px" height="300px" title="logo">
+		<section>
+			<article>
+				<h1> ● The game ● </h1>
+				<p id="rules"> The numerical version of the game is usually played with 4 digits. Here there will be 4 digits. </br>
+					You will have to guess the secret code with only 7 turns. </br>
+					If the number you entered exists and correctly placed, a point will be written under the Bull's column. </br>
+					If the number exists but not correctly placed, a point will be written under the Cow's column. </br>
+					So now good luck and have fun ! </br></p>
+			</article>
+
+			<article id="bullsCows">
+				<p id="bulls"> Bulls </p> 
+				<p id="bulls1"></p>
+
+				<p id="cows"> Cows </p>
+				<p id="cows1"></p>
+			</article>
+
+			<article id="choice">
+				<div class="alignment" id="button1" onclick="button(0)">
+					0
+				</div>
+				<div class="alignment" id="button2" onclick="button(1)"> 
+					0
+				</div>
+				<div class="alignment"  id="button3" onclick="button(2)">
+					0
+				</div>
+				<div class="alignment"  id="button4" onclick="button(3)">
+					0
+				</div>
+				<div>
+					<button onclick="check()"> Check </button>
+				</div>
+
+				<aside id="reload" >
+					<button onclick="location.reload(); "> New Game </button>
+				</aside>
+			</article>
+		</section>
+		<footer>
+			</br>
+			<p> Copyrigth - Laetitia Monnier - 2017 </p>
+		</footer>
+	</body>
+</html>
